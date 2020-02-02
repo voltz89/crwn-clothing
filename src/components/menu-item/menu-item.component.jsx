@@ -20,4 +20,4 @@ const MenuItem = ({title, imageUrl, imageSize, linkUrl, history, match}) => ( //
     </div>
 )
 
-export default withRouter(MenuItem); //using withRouter() gives the component (Menu Item's Component) super power to access props from parent's component.
+export default withRouter(MenuItem); //using withRouter() gives the component (Menu Item's Component) super power to access props from parent's component.                                                                                     
